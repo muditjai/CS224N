@@ -1,0 +1,225 @@
+/home/rishika32/muditj/tensorflowenv/bin/python2.7 /home/rishika32/muditj/assignment2/q2_parser_model.py
+================================================================================
+INITIALIZING
+================================================================================
+Loading data... took 2.29 seconds
+Building parser... took 0.03 seconds
+Loading pretrained embeddings... took 2.19 seconds
+Vectorizing data... took 0.06 seconds
+Preprocessing training data...
+1000/1000 [==============================] - 1s
+Building model... took 0.38 seconds
+
+================================================================================
+TRAINING
+================================================================================
+Epoch 1 out of 10
+24/24 [==============================] - 3s - train loss: 0.8971
+Evaluating on dev set - dev UAS: 41.48
+
+Epoch 2 out of 10
+24/24 [==============================] - 3s - train loss: 0.4307
+Evaluating on dev set - dev UAS: 50.15
+
+Epoch 3 out of 10
+24/24 [==============================] - 3s - train loss: 0.3385
+Evaluating on dev set - dev UAS: 55.39
+
+Epoch 4 out of 10
+24/24 [==============================] - 3s - train loss: 0.2863
+Evaluating on dev set - dev UAS: 57.94
+
+Epoch 5 out of 10
+24/24 [==============================] - 3s - train loss: 0.2520
+Evaluating on dev set - dev UAS: 60.16
+
+Epoch 6 out of 10
+24/24 [==============================] - 3s - train loss: 0.2246
+Evaluating on dev set - dev UAS: 62.87
+
+Epoch 7 out of 10
+24/24 [==============================] - 3s - train loss: 0.2021
+Evaluating on dev set - dev UAS: 64.72
+
+Epoch 8 out of 10
+24/24 [==============================] - 3s - train loss: 0.1835
+Evaluating on dev set - dev UAS: 65.57
+
+Epoch 9 out of 10
+24/24 [==============================] - 3s - train loss: 0.1664
+Evaluating on dev set - dev UAS: 66.53
+
+Epoch 10 out of 10
+24/24 [==============================] - 4s - train loss: 0.1540
+Evaluating on dev set - dev UAS: 67.63
+
+
+-----------------------------------------------------------------------
+debug-False
+================================================================================
+INITIALIZING
+================================================================================
+Loading data... took 2.32 seconds
+Building parser... took 1.39 seconds
+Loading pretrained embeddings... took 2.36 seconds
+Vectorizing data... took 1.81 seconds
+Preprocessing training data...
+39832/39832 [==============================] - 52s
+Building model... took 0.30 seconds
+
+================================================================================
+TRAINING
+================================================================================
+Epoch 1 out of 10
+924/924 [==============================] - 186s - train loss: 0.1957
+Evaluating on dev set - dev UAS: 81.42
+New best dev UAS! Saving model in ./data/weights/parser.weights
+
+Epoch 2 out of 10
+924/924 [==============================] - 196s - train loss: 0.1141
+Evaluating on dev set - dev UAS: 84.07
+New best dev UAS! Saving model in ./data/weights/parser.weights
+
+Epoch 3 out of 10
+924/924 [==============================] - 191s - train loss: 0.0989
+Evaluating on dev set - dev UAS: 84.67
+New best dev UAS! Saving model in ./data/weights/parser.weights
+
+Epoch 4 out of 10
+924/924 [==============================] - 190s - train loss: 0.0899
+Evaluating on dev set - dev UAS: 84.97
+New best dev UAS! Saving model in ./data/weights/parser.weights
+
+Epoch 5 out of 10
+924/924 [==============================] - 191s - train loss: 0.0833
+Evaluating on dev set - dev UAS: 85.50
+New best dev UAS! Saving model in ./data/weights/parser.weights
+
+Epoch 6 out of 10
+924/924 [==============================] - 190s - train loss: 0.0780
+Evaluating on dev set - dev UAS: 86.17
+New best dev UAS! Saving model in ./data/weights/parser.weights
+
+Epoch 7 out of 10
+924/924 [==============================] - 190s - train loss: 0.0734
+Evaluating on dev set - dev UAS: 86.27
+New best dev UAS! Saving model in ./data/weights/parser.weights
+
+Epoch 8 out of 10
+924/924 [==============================] - 191s - train loss: 0.0694
+Evaluating on dev set - dev UAS: 86.43
+New best dev UAS! Saving model in ./data/weights/parser.weights
+
+Epoch 9 out of 10
+924/924 [==============================] - 191s - train loss: 0.0662
+Evaluating on dev set - dev UAS: 86.09
+
+Epoch 10 out of 10
+924/924 [==============================] - 191s - train loss: 0.0628
+Evaluating on dev set - dev UAS: 86.43
+New best dev UAS! Saving model in ./data/weights/parser.weights
+
+================================================================================
+TESTING
+================================================================================
+Restoring the best model weights found on the dev set
+Final evaluation on test set - test UAS: 87.24
+Writing predictions
+Done!
+
+
+
+
+
+
+
+
+
+
+
+
+
+------------------------------------------
+dropout fix
+------------------------------------------
+
+
+
+
+
+
+
+
+
+/home/rishika32/muditj/tensorflowenv/bin/python2.7 /home/rishika32/muditj/assignment2/q2_parser_model.py
+================================================================================
+INITIALIZING
+================================================================================
+Loading data... took 2.40 seconds
+Building parser... took 1.48 seconds
+Loading pretrained embeddings... took 2.49 seconds
+Vectorizing data... took 1.84 seconds
+Preprocessing training data...
+39832/39832 [==============================] - 54s
+Building model... took 0.34 seconds
+
+================================================================================
+TRAINING
+================================================================================
+Epoch 1 out of 10
+924/924 [==============================] - 180s - train loss: 0.2038
+Evaluating on dev set - dev UAS: 83.44
+New best dev UAS! Saving model in ./data/weights/parser.weights
+
+Epoch 2 out of 10
+924/924 [==============================] - 192s - train loss: 0.1171
+Evaluating on dev set - dev UAS: 86.37
+New best dev UAS! Saving model in ./data/weights/parser.weights
+
+Epoch 3 out of 10
+924/924 [==============================] - 195s - train loss: 0.1011
+Evaluating on dev set - dev UAS: 86.91
+New best dev UAS! Saving model in ./data/weights/parser.weights
+
+Epoch 4 out of 10
+924/924 [==============================] - 195s - train loss: 0.0915
+Evaluating on dev set - dev UAS: 87.51
+New best dev UAS! Saving model in ./data/weights/parser.weights
+
+Epoch 5 out of 10
+924/924 [==============================] - 202s - train loss: 0.0844
+Evaluating on dev set - dev UAS: 87.55
+New best dev UAS! Saving model in ./data/weights/parser.weights
+
+Epoch 6 out of 10
+924/924 [==============================] - 199s - train loss: 0.0792
+Evaluating on dev set - dev UAS: 88.06
+New best dev UAS! Saving model in ./data/weights/parser.weights
+
+Epoch 7 out of 10
+924/924 [==============================] - 195s - train loss: 0.0742
+Evaluating on dev set - dev UAS: 88.08
+New best dev UAS! Saving model in ./data/weights/parser.weights
+
+Epoch 8 out of 10
+924/924 [==============================] - 195s - train loss: 0.0699
+Evaluating on dev set - dev UAS: 88.33
+New best dev UAS! Saving model in ./data/weights/parser.weights
+
+Epoch 9 out of 10
+924/924 [==============================] - 194s - train loss: 0.0667
+Evaluating on dev set - dev UAS: 88.32
+
+Epoch 10 out of 10
+924/924 [==============================] - 194s - train loss: 0.0632
+Evaluating on dev set - dev UAS: 88.29
+
+================================================================================
+TESTING
+================================================================================
+Restoring the best model weights found on the dev set
+Final evaluation on test set - test UAS: 88.77
+Writing predictions
+Done!
+
+Process finished with exit code 0

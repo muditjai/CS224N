@@ -1,0 +1,5 @@
+*.pyc
+*.zip
+*.npy
+assignment2/data/*
+assignment1/utils/datasets/*
